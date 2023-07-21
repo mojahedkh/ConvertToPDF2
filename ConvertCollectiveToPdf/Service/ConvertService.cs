@@ -4,6 +4,9 @@ using DinkToPdf;
 using DinkToPdf.Contracts;
 using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
+using PdfSharp;
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
 
 namespace ConvertCollectiveToPdf.Service
 {
@@ -22,9 +25,16 @@ namespace ConvertCollectiveToPdf.Service
         public string[] GetHtmlPages(string htmlFilePath)
         {
 
+         try
+          {
             string htmlContent = System.IO.File.ReadAllText(htmlFilePath);
             string[] htmlPages = htmlContent.Split(new[] { _configuration["ConvertToPdfVariable:SplitFlag"] }, StringSplitOptions.RemoveEmptyEntries);
             return htmlPages;
+          }
+
+            catch (Exception ex) {
+                throw new NullReferenceException("The split flag not found in the configuration file ");
+            }
         }
 
         private void CombineMultiplePdfFileToSingleOne(string InputDirectoryPath, string OutputFilePath)
@@ -43,42 +53,52 @@ namespace ConvertCollectiveToPdf.Service
             }
         }
 
-        public void CombinePDFs(string outputFilePath, string inputFile)
+        public void MergePDFs(string InputDirectoryPath,  string OutputFilePath)
         {
-
-            using (FileStream outputStream = new FileStream(outputFilePath, FileMode.Create))
+            try
             {
-                PdfDocument document = new PdfDocument();
-                PdfCopy pdfCopy = new PdfCopy(document, outputStream);
-                var inputFilePaths = Directory.GetFiles(inputFile);
-
-                try
+                if (!Directory.Exists(InputDirectoryPath))
                 {
-                    document.Open();
+                    throw new DirectoryNotFoundException("Directory not found ");
+                }
 
-                    foreach (string inputFilePath in inputFilePaths)
+           /*     var listOfPDFinvoices = Directory.GetFiles(InputDirectoryPath);
+
+                using (var targetDoc = new PdfSharp.Pdf.PdfDocument())
+                {
+
+                    foreach (var pdf in listOfPDFinvoices)
                     {
-
-                        PdfReader pdfReader = new PdfReader(inputFilePath);
-                        PdfImportedPage importedPage = pdfCopy.GetImportedPage(pdfReader, 1);
-                        pdfCopy.AddPage(importedPage);
-                        pdfReader.Close();
-
+                        using (var pdfDoc = PdfSharp.Pdf.IO.PdfReader.Open(pdf, PdfDocumentOpenMode.Import))
+                        {
+                            targetDoc.AddPage(pdfDoc.Pages[0]);
+                        }
                     }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Error combining PDFs: " + ex.Message);
-                }
-                finally
-                {
-                }
-            }
+                    targetDoc.Save(OutputFilePath);
+                }*/
 
+                DeleteFileFromDirectory(InputDirectoryPath); 
+            }
+            catch(Exception ex) { 
+
+            }
+        }
+        
+        public void DeleteFileFromDirectory(string filePath)
+        {
+            var ListPfPdf = Directory.GetFiles(filePath);  
+            
+            foreach (var file in ListPfPdf)
+            {
+                File.Delete(file);
+            }
+            Directory.Delete(filePath);
         }
 
         public void ConvertEachPageToPdf(PdfConvertor convertor)
         {
+            try
+            {
                 var doc = new HtmlToPdfDocument()
                 {
                     GlobalSettings =
@@ -93,7 +113,7 @@ namespace ConvertCollectiveToPdf.Service
                                     Out = convertor.OutputPdfFile+"\\"+convertor.PageName+".pdf"
                                 },
 
-                    Objects =
+                        Objects =
                                 {
                                     new ObjectSettings()
                                         {
@@ -105,6 +125,11 @@ namespace ConvertCollectiveToPdf.Service
 
                 _converter.Convert(doc);
                 _logger.LogInformation("convert done.");
+            }
+
+            catch (Exception ex) {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

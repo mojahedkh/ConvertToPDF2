@@ -53,9 +53,17 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "PDFSplit": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

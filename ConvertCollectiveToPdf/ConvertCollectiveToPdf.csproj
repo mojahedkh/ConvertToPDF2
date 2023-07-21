@@ -10,6 +10,8 @@
     <PackageReference Include="DinkToPdf" Version="1.0.8" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.49" />
     <PackageReference Include="HtmlToPdfConverter.Core" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
     <PackageReference Include="PDFSplit" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>

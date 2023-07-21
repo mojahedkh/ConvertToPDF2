@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5rzzSIsTnFV1hikYwtf79fmgoH1KCbLp7vtlpsDOHhINWuLzyNm8bZDSBK4/yO2wnPAjU/Az8VxuXi0gF3T1Lw==",
+  "dgSpecHash": "OT66aLvxoThKpzjKpgUmLunCEE4lQwO67rsOxwVoEN/TgAG+7x7j6AodQQJPUALCxfvrg3k95/cewgyPfkmywQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\shahrori tec\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\shahrori tec\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\shahrori tec\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
+    "C:\\Users\\shahrori tec\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\shahrori tec\\.nuget\\packages\\pdfsharp\\1.50.5147\\pdfsharp.1.50.5147.nupkg.sha512",
     "C:\\Users\\shahrori tec\\.nuget\\packages\\pdfsplit\\1.0.0\\pdfsplit.1.0.0.nupkg.sha512",
     "C:\\Users\\shahrori tec\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\shahrori tec\\.nuget\\packages\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
@@ -81,6 +83,16 @@
     "C:\\Users\\shahrori tec\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PDFsharp 1.50.5147' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PDFsharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
