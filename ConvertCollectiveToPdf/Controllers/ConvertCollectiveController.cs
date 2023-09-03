@@ -2,7 +2,6 @@
 using ConvertCollectiveToPdf.Service;
 using DinkToPdf;
 using DinkToPdf.Contracts;
-using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.IO;
