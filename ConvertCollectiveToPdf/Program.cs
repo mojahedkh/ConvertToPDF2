@@ -3,6 +3,7 @@ using DinkToPdf;
 using ConvertCollectiveToPdf.Service;
 using Microsoft.Extensions.DependencyInjection;
 using ConvertCollectiveToPdf.Models;
+using Serilog;
 
 namespace ConvertCollectiveToPdf
 {
@@ -13,35 +14,24 @@ namespace ConvertCollectiveToPdf
             try
             {
                 var builder = WebApplication.CreateBuilder(args);
+                ConvertService service = new ConvertService();
+
+                builder.Host.UseSerilog((hostContext, services, Configuration) => {
+                    Configuration.WriteTo.Console();
+                    Configuration.WriteTo.File("C:\\Logs\\ConvertToPdfLogs.txt");
+                });
+
                 var configuration = builder.Configuration;
-                // Add services to the container.
 
                 builder.Services.AddControllers();
-                // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
                 builder.Services.AddEndpointsApiExplorer();
                 builder.Services.AddSwaggerGen();
 
                 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
                 builder.Services.AddScoped<ConvertService>();
 
-
-                String ListOfCollectivePath = configuration.GetSection("ConvertToPdfVariable")["CollectiveFolder"];
-
-                /* if (!Directory.Exists(ListOfCollectivePath))
-                 {
-                     throw new DirectoryNotFoundException("Directory Not Found");
-                 }*/
-
-                var ListOfCollective = new String[]
-                {
-                    "ahmad" ,
-                    "mojahed",
-                    "kamal" ,
-                    "rami" , 
-                    "ahmad"
-                };
-
-                builder.Services.AddSingleton<String[]>(ListOfCollective);
+                builder.Logging.ClearProviders();
+               
 
                 var app = builder.Build();
 

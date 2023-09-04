@@ -1,0 +1,160 @@
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\appsettings.Development.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\appsettings.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.exe
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.deps.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.runtimeconfig.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.pdb
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\DinkToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\HtmlAgilityPack.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\HtmlToPdfConverter.Core.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharp.Charting.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharpCore.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SixLabors.Fonts.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SixLabors.ImageSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharp.Charting.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharp.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharpCore.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\linux-x64\native\libwkhtmltox.so
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\osx-x64\native\libwkhtmltox.dylib
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x64\native\libwkhtmltox.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.AssemblyReference.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.AssemblyInfoInputs.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.AssemblyInfo.cs
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.CoreCompileInputs.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.ConvertCollectiveToPdf.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.build.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\scopedcss\bundle\ConvertCollectiveToPdf.styles.css
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.CopyComplete
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\refint\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.pdb
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.genruntimeconfig.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ref\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.AspNetCore.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.Console.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.File.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Json.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\appsettings.Development.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\appsettings.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.exe
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.deps.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.runtimeconfig.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ConvertCollectiveToPdf.pdb
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\DinkToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\HtmlAgilityPack.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\HtmlToPdfConverter.Core.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharp.Charting.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\PdfSharpCore.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.AspNetCore.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.Console.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Serilog.Sinks.File.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SixLabors.Fonts.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SixLabors.ImageSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\SkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\System.Text.Json.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharp.Charting.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharp.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\de\PdfSharpCore.resources.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\linux-x64\native\libwkhtmltox.so
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\osx-x64\native\libwkhtmltox.dylib
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x64\native\libwkhtmltox.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.AssemblyReference.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.AssemblyInfoInputs.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.AssemblyInfo.cs
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.CoreCompileInputs.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.ConvertCollectiveToPdf.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.build.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.ConvertCollectiveToPdf.props
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\scopedcss\bundle\ConvertCollectiveToPdf.styles.css
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.csproj.CopyComplete
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\refint\ConvertCollectiveToPdf.dll
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.pdb
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ConvertCollectiveToPdf.genruntimeconfig.cache
+C:\Users\mujahed.kharasani\OneDrive - Paltel Group\Desktop\Strem Serve\ConvertToPdfApi\ConvertToPDF2\ConvertCollectiveToPdf\obj\Release\net6.0\ref\ConvertCollectiveToPdf.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj": {}
+    "C:\\Users\\mujahed.kharasani\\OneDrive - Paltel Group\\Desktop\\Strem Serve\\ConvertToPdfApi\\ConvertToPDF2\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj": {
+    "C:\\Users\\mujahed.kharasani\\OneDrive - Paltel Group\\Desktop\\Strem Serve\\ConvertToPdfApi\\ConvertToPDF2\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj",
+        "projectUniqueName": "C:\\Users\\mujahed.kharasani\\OneDrive - Paltel Group\\Desktop\\Strem Serve\\ConvertToPdfApi\\ConvertToPDF2\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj",
         "projectName": "ConvertCollectiveToPdf",
-        "projectPath": "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj",
-        "packagesPath": "C:\\Users\\shahrori tec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahrori tec\\source\\repos\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf\\obj\\",
+        "projectPath": "C:\\Users\\mujahed.kharasani\\OneDrive - Paltel Group\\Desktop\\Strem Serve\\ConvertToPdfApi\\ConvertToPDF2\\ConvertCollectiveToPdf\\ConvertCollectiveToPdf.csproj",
+        "packagesPath": "C:\\Users\\mujahed.kharasani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mujahed.kharasani\\OneDrive - Paltel Group\\Desktop\\Strem Serve\\ConvertToPdfApi\\ConvertToPDF2\\ConvertCollectiveToPdf\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahrori tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mujahed.kharasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,17 +57,33 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
-            "PDFSplit": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "PdfSharp": {
               "target": "Package",
               "version": "[1.50.5147, )"
             },
+            "PdfSharpCore": {
+              "target": "Package",
+              "version": "[1.3.57, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[3.4.3, )"
             }
           },
           "imports": [
@@ -89,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

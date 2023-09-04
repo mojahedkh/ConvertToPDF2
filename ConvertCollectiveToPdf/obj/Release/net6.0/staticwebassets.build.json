@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AZ2Y/ANgfJ/aAsUhXQlm2pALk+d92r38cdsaC4JeKcE=",
+  "Source": "ConvertCollectiveToPdf",
+  "BasePath": "_content/ConvertCollectiveToPdf",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

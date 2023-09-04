@@ -5,13 +5,18 @@
 
     }
    
-    public class SuccessResponce : IResponceModel
+    public class SuccessResponse : IResponceModel
     {
-        public string ResponceCode { get; set; }
-        public string ResponceMessage { get; set; }
+        public string ResponseCode { get; set; }
+        public string ResponseMessage { get; set; }
     }
-    public class SuccessResponceWithContent : SuccessResponce
+    public class SuccessResponseWithContent : SuccessResponse
     {
         public Object Content { get; set; }
+    }
+    public class SuccessResponseWithOutPutFile : SuccessResponse
+    {
+        public string OutPutFile { get; set; }  
+        public string TimeElapsed { get; set; }
     }
 }

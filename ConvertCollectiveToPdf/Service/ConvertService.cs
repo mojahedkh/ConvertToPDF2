@@ -2,11 +2,13 @@
 using ConvertCollectiveToPdf.Models;
 using DinkToPdf;
 using DinkToPdf.Contracts;
+using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
 using PdfSharp;
 using PdfSharp.Pdf;
 using PdfSharp.Pdf.IO;
+using System.IO;
 
 namespace ConvertCollectiveToPdf.Service
 {
@@ -22,74 +24,111 @@ namespace ConvertCollectiveToPdf.Service
             _configuration = configuration;
         }
 
+        public ConvertService()
+        {
+
+        }
         public string[] GetHtmlPages(string htmlFilePath)
         {
 
-         try
-          {
-            string htmlContent = System.IO.File.ReadAllText(htmlFilePath);
-            string[] htmlPages = htmlContent.Split(new[] { _configuration["ConvertToPdfVariable:SplitFlag"] }, StringSplitOptions.RemoveEmptyEntries);
-            return htmlPages;
-          }
+            try
+            {
+                _logger.LogInformation("... Start Getting Html pages...");
 
-            catch (Exception ex) {
+                string htmlContent = System.IO.File.ReadAllText(htmlFilePath);
+                string[] htmlPages = htmlContent.Split(new[] { _configuration["ConvertToPdfVariable:SplitFlag"] }, StringSplitOptions.RemoveEmptyEntries);
+                _logger.LogInformation("... Finished Getting Html pages...");
+
+                return htmlPages;
+            }
+
+            catch (Exception ex)
+            {
                 throw new NullReferenceException("The split flag not found in the configuration file ");
             }
         }
 
-        private void CombineMultiplePdfFileToSingleOne(string InputDirectoryPath, string OutputFilePath)
-        {
-            string[] inputFilePaths = Directory.GetFiles(InputDirectoryPath);
-
-            using (var outputStream = System.IO.File.Create(OutputFilePath))
-            {
-                foreach (var inputFilePath in inputFilePaths)
-                {
-                    using (var inputStream = System.IO.File.OpenRead(inputFilePath))
-                    {
-                        inputStream.CopyTo(outputStream);
-                    }
-                }
-            }
-        }
-
-        public void MergePDFs(string InputDirectoryPath,  string OutputFilePath)
+        public void MergePDF(string InputDirectoryPath, string OutputPdfPath)
         {
             try
             {
+                _logger.LogInformation($"... Start MergePDF To One PDF File  ...");
+
+                iTextSharp.text.pdf.PdfReader reader = null;
+                Document sourceDocument = null;
+                PdfCopy pdfCopyProvider = null;
+                PdfImportedPage importedPage;
+
+
+                sourceDocument = new Document();
+                pdfCopyProvider = new PdfCopy(sourceDocument, new System.IO.FileStream(OutputPdfPath, System.IO.FileMode.Create));
+
+                // Open the output file   
+                sourceDocument.Open();
+
+                var listOfPDFInvoices = Directory.GetFiles(InputDirectoryPath);
+
+                var listOfPDFSorted = listOfPDFInvoices.OrderBy(collectiveFile =>
+                {
+                    string fileNameWithout = Path.GetFileNameWithoutExtension(collectiveFile);
+                    var collectiveIndex = new String(fileNameWithout.SkipWhile(c => !Char.IsDigit(c)).TakeWhile(c => Char.IsDigit(c)).ToArray());
+                    return int.Parse(collectiveIndex);
+                }).ToArray();
+
                 if (!Directory.Exists(InputDirectoryPath))
                 {
                     throw new DirectoryNotFoundException("Directory not found ");
                 }
 
-           /*     var listOfPDFinvoices = Directory.GetFiles(InputDirectoryPath);
-
-                using (var targetDoc = new PdfSharp.Pdf.PdfDocument())
+                //Loop through the files list
+                for (int pdfDocument = 0; pdfDocument < listOfPDFSorted.Length; pdfDocument++)
                 {
-
-                    foreach (var pdf in listOfPDFinvoices)
-                    {
-                        using (var pdfDoc = PdfSharp.Pdf.IO.PdfReader.Open(pdf, PdfDocumentOpenMode.Import))
-                        {
-                            targetDoc.AddPage(pdfDoc.Pages[0]);
-                        }
-                    }
-                    targetDoc.Save(OutputFilePath);
-                }*/
-
-                DeleteFileFromDirectory(InputDirectoryPath); 
+                    reader = new iTextSharp.text.pdf.PdfReader(listOfPDFSorted[pdfDocument]);
+                    importedPage = pdfCopyProvider.GetImportedPage(reader, 1);
+                    pdfCopyProvider.AddPage(importedPage);
+                    reader.Close();
+                }
+                sourceDocument.Close();
+                _logger.LogInformation("... Finished MergePDF To One pDF File ...");
             }
-            catch(Exception ex) { 
 
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
         }
-        
-        public void DeleteFileFromDirectory(string filePath)
+
+        public Steps CheckSteps(string inputHtmlFile, string outputFileDirectory, string outputFilePath, string[] listOfPagesToCompare)
         {
-            var ListPfPdf = Directory.GetFiles(filePath);  
-            
+            Steps step = Steps.StartConvert;
+            _logger.LogInformation("... Start CheckSteps ...");
+
+            if (Directory.GetFiles(outputFileDirectory).Count() == listOfPagesToCompare.Count() - 1)
+            {
+                step = Steps.StartCombine;
+            }
+
+            else if (System.IO.File.Exists(outputFilePath) && Directory.Exists(outputFileDirectory))
+            {
+                step = Steps.DeleteDirectory;
+            }
+
+            _logger.LogInformation("... finished CheckSteps ...");
+
+            return step;
+        }
+
+        public async Task DeleteFileFromDirectory(string filePath)
+        {
+            if (!Directory.Exists(filePath))
+            {
+                throw new Exception($" {filePath} doesnt exist ");
+            }
+            var ListPfPdf = Directory.GetFiles(filePath);
+
             foreach (var file in ListPfPdf)
             {
+
                 File.Delete(file);
             }
             Directory.Delete(filePath);
@@ -99,6 +138,8 @@ namespace ConvertCollectiveToPdf.Service
         {
             try
             {
+                _logger.LogInformation($"... Start Convert {convertor.PageName} Html To Pdf , thread id :- {Thread.CurrentThread.ManagedThreadId}");
+
                 var doc = new HtmlToPdfDocument()
                 {
                     GlobalSettings =
@@ -106,14 +147,11 @@ namespace ConvertCollectiveToPdf.Service
                                     ColorMode = ColorMode.Color,
                                     Orientation = convertor.IsChild ? Orientation.Landscape : Orientation.Portrait,
                                     PaperSize = PaperKind.A4,
-                                    Margins = new MarginSettings()
-                                    {
-                                        Top = 12, Bottom = 6, Left = 5, Right = 5
-                                    },
-                                    Out = convertor.OutputPdfFile+"\\"+convertor.PageName+".pdf"
+                                    ImageDPI=350,
+                                    ImageQuality=60,
+                                    Out = convertor.OutputPdfFile+"\\"+convertor.PageName+".pdf",
                                 },
-
-                        Objects =
+                    Objects =
                                 {
                                     new ObjectSettings()
                                         {
@@ -121,13 +159,15 @@ namespace ConvertCollectiveToPdf.Service
                                             WebSettings = {  DefaultEncoding = "utf-8",},
                                         }
                                 }
+
                 };
 
                 _converter.Convert(doc);
-                _logger.LogInformation("convert done.");
+                _logger.LogInformation($"... Finished Convert {convertor.PageName} Html To Pdf , thread id :- {Thread.CurrentThread.ManagedThreadId}");
             }
 
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 throw new Exception(ex.Message);
             }
         }
