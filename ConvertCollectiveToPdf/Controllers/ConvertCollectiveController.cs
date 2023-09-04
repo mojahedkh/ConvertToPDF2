@@ -53,7 +53,7 @@ namespace ConvertCollectiveToPdf.Controllers
                     Directory.CreateDirectory(outputFileDirectory); 
                 }
 
-                StringBuilder outputFilePath = new StringBuilder(outputFileDirectory).Append(collectiveName).Append(".pdf");
+                StringBuilder outputFilePath = new StringBuilder(outputFileDirectory).Append(".pdf");
 
                 if (!System.IO.File.Exists(fileInput.InputHtmlFile))
                 {
