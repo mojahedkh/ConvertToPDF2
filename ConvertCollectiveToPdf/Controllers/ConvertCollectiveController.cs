@@ -62,7 +62,6 @@ namespace ConvertCollectiveToPdf.Controllers
 
                 var listOfPagesToCompare = _convertService.GetHtmlPages(fileInput.InputHtmlFile);
                 var step  = _convertService.CheckSteps(fileInput.InputHtmlFile , outputFileDirectory , outputFilePath.ToString() , listOfPagesToCompare);
-
                 if (step == Steps.StartConvert)
                 {
                     stylePage = listOfPagesToCompare[0];
@@ -70,9 +69,13 @@ namespace ConvertCollectiveToPdf.Controllers
 
                     string pageName;
                     StringBuilder childDocument = new StringBuilder();
-
+                    var pageNumber = new StringBuilder();
                     foreach (var page in listOfPagesToCompare)
                     {
+                        pageNumber.Clear();
+                        pageNumber.Length = 0;
+                        pageNumber.Append($"<div class=\"pageNumber\">  <p>  Page 1 of {index}  </p>   </div>");
+                        // fg
                         childDocument.Clear();
                         childDocument.Length = 0;
                         childDocument.Append(stylePage);
@@ -80,8 +83,8 @@ namespace ConvertCollectiveToPdf.Controllers
                         if (index > 1 && index != listOfPagesToCompare.Length-1 )
                         {
                             pageName = new string("childPage_" + index);
-
                             childDocument.Append(page);
+                            childDocument.Append(pageNumber);
                             childDocument.Append(endDocument);
 
                             PdfConvertor pdfConverter = new PdfConvertor()
@@ -102,7 +105,7 @@ namespace ConvertCollectiveToPdf.Controllers
                             //First Page (Base) ----> portrait
                             childDocument.Append(page);
                             childDocument.Append(endDocument);
-
+                           
                             _convertService.ConvertEachPageToPdf(new PdfConvertor()
                             {
                                 OutputPdfFile = outputFileDirectory,
