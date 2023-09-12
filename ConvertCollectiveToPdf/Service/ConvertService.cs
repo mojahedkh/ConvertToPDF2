@@ -143,6 +143,7 @@ namespace ConvertCollectiveToPdf.Service
                 var doc = new HtmlToPdfDocument()
                 {
                     GlobalSettings =
+
                                 {
                                     ColorMode = ColorMode.Color,
                                     Orientation = convertor.IsChild ? Orientation.Landscape : Orientation.Portrait,
@@ -150,6 +151,18 @@ namespace ConvertCollectiveToPdf.Service
                                     ImageDPI=350,
                                     ImageQuality=60,
                                     Out = convertor.OutputPdfFile+"\\"+convertor.PageName+".pdf",
+                                    Margins = convertor.IsChild ? new MarginSettings() {
+                                        Top = 2,
+                                        Bottom = 0,
+                                        Right = 3.4 , 
+                                        Left = 3.4
+                                    } 
+                                    :new MarginSettings() {
+                                        Top = 3.5,
+                                        Bottom = 0,
+                                        Right = 1.4 ,
+                                        Left = 1.4
+                                    },                                    
                                 },
                     Objects =
                                 {
