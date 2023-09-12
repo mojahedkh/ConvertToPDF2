@@ -74,7 +74,7 @@ namespace ConvertCollectiveToPdf.Controllers
                     {
                         pageNumber.Clear();
                         pageNumber.Length = 0;
-                        pageNumber.Append($"<div class=\"pageNumber\">  <p>  Page 1 of {index}  </p>   </div>");
+                        pageNumber.Append($"<div> <p style=\"font-size: 10px; text-align: center; padding: 0; margin: 0;\"> Page 1 of {index-1}</p></div>");
                         childDocument.Clear();
                         childDocument.Length = 0;
                         childDocument.Append(stylePage);
@@ -83,8 +83,8 @@ namespace ConvertCollectiveToPdf.Controllers
                         {
                             pageName = new string("childPage_" + index);
                             childDocument.Append(page);
-/*                            childDocument.Append(pageNumber);
-*/                            childDocument.Append(endDocument);
+                            childDocument.Append(pageNumber);
+                            childDocument.Append(endDocument);
 
                             PdfConvertor pdfConverter = new PdfConvertor()
                             {
