@@ -74,7 +74,7 @@ namespace ConvertCollectiveToPdf.Controllers
                     {
                         pageNumber.Clear();
                         pageNumber.Length = 0;
-                        pageNumber.Append($"<div> <p style=\"font-size: 10px; text-align: center; padding: 0; margin: 0;\"> Page 1 of {index-1}</p></div>");
+                        pageNumber.Append($"<div> <p style=\"font-size: 10px; text-align: center; padding: 0; margin: 0;\"> Page {index - 1} of {listOfPagesToCompare.Length-3} </p></div>");
                         childDocument.Clear();
                         childDocument.Length = 0;
                         childDocument.Append(stylePage);

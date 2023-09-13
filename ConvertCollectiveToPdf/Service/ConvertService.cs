@@ -160,8 +160,8 @@ namespace ConvertCollectiveToPdf.Service
                                     :new MarginSettings() {
                                         Top = 3.5,
                                         Bottom = 0,
-                                        Right = 1.4 ,
-                                        Left = 1.4
+                                        Right = 4 ,
+                                        Left = 4
                                     },                                    
                                 },
                     Objects =
